@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		@apply bg-gray-200;
+	}
+}
+
+.layout {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 60px 1fr 100px;
+}
